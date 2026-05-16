@@ -75,8 +75,6 @@ pip install -r requirements.txt
 # Run notebooks in order
 jupyter notebook notebooks/
 
-#### **E. Add "Academic Context"**
-```markdown
 
 ## Academic Context
 

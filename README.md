@@ -77,6 +77,7 @@ jupyter notebook notebooks/
 
 #### **E. Add "Academic Context"**
 ```markdown
+
 ## Academic Context
 
 - **Degree:** MSc Data Science, Manchester Metropolitan University

@@ -59,9 +59,9 @@ Build a regression model that accurately predicts vehicle selling price based on
 
 - **Handling high-cardinality categorical features:** Target encoding outperformed one-hot for 110+ car brands and 500+ models
 - **The importance of stratified cross-validation:** Ensured stable price distribution across train/validation/test splits
-- **Tree-based vs. linear models:** Validated that vehicle pricing has strong nonlinear structure — linear models (Ridge, PCA) significantly underperformed
+- **Tree-based vs. linear models:** Validated that vehicle pricing has strong nonlinear structure, linear models (Ridge, PCA) significantly underperformed
 - **Ensemble wisdom:** Weighted averaging correctly identified Random Forest as the dominant model (weight = 1.0), avoiding accuracy dilution from weaker learners
-- **Interpretability matters:** SHAP revealed that `price_per_mile` (engineered feature) was more influential than raw mileage — validating domain-driven feature engineering
+- **Interpretability matters:** SHAP revealed that `price_per_mile` (engineered feature) was more influential than raw mileage, validating domain-driven feature engineering
 ##  How to Run
 
 ```bash
